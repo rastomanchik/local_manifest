@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remove-project name="android_bootable_recovery" />
+
+	<!-- Drivers -->
+	<project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="evervolv" revision="lollipop-8960" />
+	<project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="evervolv" revision="lollipop" />
+	<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="evervolv" revision="lollipop" />
+	<project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="evervolv" revision="lollipop" />
+
+	<!-- MSM7x30 device tree -->
+	<project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="evervolv" revision="lollipop" />
+
+	<!-- MSM7x30 proprietary libs -->
+	<project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="lollipop" />
+
+	<!-- TWRP-->
+	<project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="android-5.0" />
+
+</manifest>
